@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Dukezo</Authors>
+    <Company />
+    <Description>An IRC library for .NET with Twitch IRC support.</Description>
+    <PackageProjectUrl>https://github.com/Dukezo/EasyIrc</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/Dukezo/EasyIrc</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageTags>IRC, Twitch, TAP</PackageTags>
+    <Copyright>Dukezo © 2020</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

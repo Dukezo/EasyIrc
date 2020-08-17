@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIrc", "EasyIrc\EasyIrc.csproj", "{92CEBF4C-18A2-403B-B189-A0B48146D9AC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EasyIrc.Tests", "EasyIrc.Tests\EasyIrc.Tests.csproj", "{26F3DB32-893F-4E07-989D-5B0EE8EB37AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{8623C664-0FF6-460D-92AE-5754763DE023}"
+	ProjectSection(SolutionItems) = preProject
+		samples\BasicIrcBotSample.cs = samples\BasicIrcBotSample.cs
+		samples\TwitchBotSample.cs = samples\TwitchBotSample.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92CEBF4C-18A2-403B-B189-A0B48146D9AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CEBF4C-18A2-403B-B189-A0B48146D9AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CEBF4C-18A2-403B-B189-A0B48146D9AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92CEBF4C-18A2-403B-B189-A0B48146D9AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F3DB32-893F-4E07-989D-5B0EE8EB37AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F3DB32-893F-4E07-989D-5B0EE8EB37AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F3DB32-893F-4E07-989D-5B0EE8EB37AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F3DB32-893F-4E07-989D-5B0EE8EB37AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E826676-EFE3-4345-9FBB-3DC7CD404081}
+	EndGlobalSection
+EndGlobal
