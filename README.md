@@ -1,16 +1,18 @@
 # EasyIrc
 
-An IRC library for .NET with Twitch support.
+A .NET IRC library optimized for Twitch.
 
 ## Features
 
-* Supports Twitch IRC
+* Supports all Twitch IRC capabilities
 * Makes use of the task-based asynchronous pattern
 * Takes care of flood prevention
 
 ## Installing / Getting started
 
-Clone the repository, open the project in Visual Studio and build in release mode.
+Download the binary file from [Releases](https://github.com/Dukezo/EasyIrc/releases) and add it as a dependency to your project.
+
+Alternatively you can clone the repository, open the project in Visual Studio and build in release mode.
 
 ## Example usage:
 
